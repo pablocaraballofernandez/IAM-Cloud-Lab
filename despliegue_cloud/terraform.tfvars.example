@@ -1,0 +1,17 @@
+db_password = ""
+
+admin_IP = [""]
+
+instance_keycloak = ""
+
+region = ""
+
+db_username = ""
+
+key_name = ""
+
+ssh_key = ""
+
+keycloak_admin = ""
+
+keycloak_admin_password = ""
