@@ -104,7 +104,7 @@ terraform apply
 | RDS | db.t3.micro, PostgreSQL 15 | Base de datos gestionada |
 | Security Groups | 2 | Firewall EC2 y RDS |
  
-[Guía completa de instalación cloud →](Installation_cloud.md)
+[Guía completa de instalación cloud →](despliegue_cloud/Installation_cloud.md)
  
 ---
  
