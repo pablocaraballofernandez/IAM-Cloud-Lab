@@ -78,7 +78,7 @@ docker compose up -d
  
 Acceder a Keycloak en `http://IP_VM:8080` y a las apps en los puertos 5000-5002.
  
-[Guía completa de instalación on-premises →](Installation_on-premises.md)
+[Guía completa de instalación on-premises →](despliegue_on-premise/Installation_on-premises.md)
  
 ---
  
