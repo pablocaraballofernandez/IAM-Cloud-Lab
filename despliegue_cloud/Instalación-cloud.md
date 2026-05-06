@@ -9,7 +9,7 @@
 5. [Descripción de los archivos](#5-descripción-de-los-archivos)
 6. [Despliegue con Terraform](#6-despliegue-con-terraform)
 7. [Verificación del despliegue](#7-verificación-del-despliegue)
-8. [Gestión de costes](#8-gestión-de-costes)
+8. [Despliegue](#8-despliegue)
 
 ---
 
