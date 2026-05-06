@@ -233,34 +233,34 @@ Una vez que el script de despliegue finaliza, verificamos que todo funciona:
 
 Desplegamos la instancia:
 
-![Imágenes](Images/Cloud/1.png)
+![Imágenes](Images/1.png)
 
-![Imágenes](Images/Cloud/2.png)
+![Imágenes](Images/2.png)
 
-![Imágenes](Images/Cloud/3.png)
+![Imágenes](Images/3.png)
 
 
 Y como vemos están todos los usuarios que creamos y todo debería de funcionar tal y como en el on-premise:
 
-![Imágenes](Images/Cloud/4.png)
+![Imágenes](Images/4.png)
 
 Ahora vamos a hacer un inicio de sesion:
 
-![Imágenes](Images/Cloud/5.png)
+![Imágenes](Images/5.png)
 
-![Imágenes](Images/Cloud/6.png)
+![Imágenes](Images/6.png)
 
-![Imágenes](Images/Cloud/7.png)
+![Imágenes](Images/7.png)
 
-![Imágenes](Images/Cloud/8.png)
+![Imágenes](Images/8.png)
 
 Y ahora vamos a comprobar ese inicio de sesión en el script de audit.py: 
 
-![Imágenes](Images/Cloud/9.png)
+![Imágenes](Images/9.png)
 
 Y ahora vamos a comprobar que el script de management.py nos lista los usuarios:
 
-![Imágenes](Images/Cloud/10.png)
+![Imágenes](Images/10.png)
 
 
 
