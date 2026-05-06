@@ -3,17 +3,17 @@
 ## Índice
  
 1. [Introducción](#1-introducción)
-2. [Arquitectura de la solución](#3-arquitectura-de-la-solución)
-3. [Preparación del servidor](#4-preparación-del-servidor)
-4. [Instalación de herramientas](#5-instalación-de-herramientas)
-5. [Despliegue de la infraestructura](#6-despliegue-de-la-infraestructura)
-6. [Configuración de Keycloak](#7-configuración-de-keycloak)
-7. [Despliegue de las aplicaciones](#8-despliegue-de-las-aplicaciones)
-8. [Verificación del RBAC](#9-verificación-del-rbac)
-9. [Autenticación multifactor (MFA/TOTP)](#10-autenticación-multifactor-mfatotp)
-10. [Federación de identidades con GitHub](#11-federación-de-identidades-con-github)
-11. [Auditoría de eventos](#12-auditoría-de-eventos)
-12. [Automatización de gestión de usuarios](#13-automatización-de-gestión-de-usuarios)
+2. [Arquitectura de la solución](#2-arquitectura-de-la-solución)
+3. [Preparación del servidor](#3-preparación-del-servidor)
+4. [Instalación de herramientas](#4-instalación-de-herramientas)
+5. [Despliegue de la infraestructura](#5-despliegue-de-la-infraestructura)
+6. [Configuración de Keycloak](#6-configuración-de-keycloak)
+7. [Despliegue de las aplicaciones](#7-despliegue-de-las-aplicaciones)
+8. [Verificación del RBAC](#8-verificación-del-rbac)
+9. [Autenticación multifactor (MFA/TOTP)](#9-autenticación-multifactor-mfatotp)
+10. [Federación de identidades con GitHub](#10-federación-de-identidades-con-github)
+11. [Auditoría de eventos](#11-auditoría-de-eventos)
+12. [Automatización de gestión de usuarios](#12-automatización-de-gestión-de-usuarios)
 ---
  
 ## 1. Introducción
