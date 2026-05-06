@@ -120,9 +120,69 @@ Ahora vamos a probar a acceder al panel de administración desde un usuario con 
 
 ![Imágenes](Images/26.png)
 
+Ahora vamos a habilitar el MFA/TOTP. Para ello vamos a la consola del administrador en autenticación y nos metemos en browser: 
 
+![Imágenes](Images/28.png)
 
+Cambiamos el Conditional OTP a Required:
 
+![Imágenes](Images/29.png)
+
+Ahora al intentar iniciar sesión con cualguier usuario, nos pedirá autenticación desde una aplicación de autenticación como google authenticator:
+
+![Imágenes](Images/30.png)
+
+![Imágenes](Images/31.png)
+
+![Imágenes](Images/32.png)
+
+Ahora vamos a crear OAuth con github. Accedemos a https://github.com/settings/developers:
+
+![Imágenes](Images/33.png)
+
+![Imágenes](Images/34.png)
+
+Ahora en Keycloak accedemos a Identity providers > github y pegamos el client ID que nos designa github y la clave secreta que generamos:
+
+![Imágenes](Images/35.png)
+
+![Imágenes](Images/36.png)
+
+![Imágenes](Images/37.png)
+
+![Imágenes](Images/38.png)
+
+Ahora activaremos los eventos de keycloak, primero activaremos los eventos para los usuarios y luego para la consola de administración:
+
+![Imágenes](Images/39.png)
+
+![Imágenes](Images/40.png)
+
+Ahora para hacer más cómoda la visualizaciónd de eventos, vamos a crear un script con python para visualizar los eventos desde la terminal:
+
+![Imágenes](Images/41.png)
+
+Y ahora crearemos otro para gestionar los usuarios desde la terminal:
+
+![Imágenes](Images/42.png)
+
+Vamos a crear un usuario y a borrarlo a ver si funciona el script:
+
+![Imágenes](Images/43.png)
+
+Ahora he creado un archivo .json con empleados para dar de alta:
+
+![Imágenes](Images/44.png)
+
+![Imágenes](Images/45.png)
+
+![Imágenes](Images/46.png)
+
+Ahora eliminamos al usuario:
+
+![Imágenes](Images/47.png)
+
+![Imágenes](Images/48.png)
 
 
 
