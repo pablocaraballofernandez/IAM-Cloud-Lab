@@ -36,30 +36,30 @@ El proyecto se compone de:
  
 ```
 IAM-Cloud-Lab/
-├── despliegue_on-premise/         # Código del entorno local
-│   ├── docker-compose.yml         # Orquestación de contenedores
+├── despliegue_on-premise/        
+│   ├── docker-compose.yml         
+│   ├── Installation_on-premises.md
 │   ├── apps/
-│   │   ├── portal/                # App Flask - Portal del empleado
-│   │   ├── tickets/               # App Flask - Sistema de tickets
-│   │   └── admin/                 # App Flask - Panel de administración
+│   │   ├── portal/                
+│   │   ├── tickets/               
+│   │   └── admin/                
 │   └── scripts/
-│       ├── audit.py               # Script de auditoría de eventos
-│       ├── management.py          # Script de gestión de usuarios
-│       └── empleados.json         # Datos de ejemplo para onboarding
+│       ├── audit.py              
+│       ├── management.py         
+│       └── empleados.json         
 │
-├── despliegue_cloud/              # Código del entorno AWS
-│   ├── main.tf                    # EC2, RDS, Key Pair, AMI
-│   ├── network.tf                 # VPC, subnets, Internet Gateway
-│   ├── security_groups.tf         # Reglas de firewall
-│   ├── variables.tf               # Definición de variables
-│   ├── output.tf                  # Outputs del despliegue
-│   ├── provider.tf                # Provider de AWS
+├── despliegue_cloud/            
+│   ├── Installation_cloud.md  
+│   ├── main.tf                   
+│   ├── network.tf                
+│   ├── security_groups.tf        
+│   ├── variables.tf              
+│   ├── output.tf                 
+│   ├── provider.tf               
 │   └── scripts/
-│       └── setup_keycloak.sh      # Script de despliegue automático
+│       └── setup_keycloak.sh    
 │
-├── Images/                        # Capturas para la documentación
-├── Installation_on-premises.md    # Guía de instalación on-premises
-├── Installation_cloud.md          # Guía de instalación en AWS
+├── Images/                       
 └── README.md
 ```
  
